@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<body>
+    <head>
+        <link rel="icon" type="image/x-icon" href="/path/to/favicon.ico">
+        <link rel="apple-touch-icon-precomposed" href="/path/to/newspaper-152-182846.png">
+
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+    </head>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+  <a class="navbar-brand" href="#">Jacob Walker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="grid.html">Grid</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="carousel.html">Carousel</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="about.html">About</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="FAQ.html">FAQ</a>
+  </li>
+    </ul>
+  </div>
+</nav>
+    <link href="/style2.css" rel="stylesheet">
+<h1>Contact:</h1>
+<p>Note: This does not actually submit to anything</p>
+<p>Please input your information:</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+    
+    <label for="address">Address</label>
+    <input type="text" id="address" name="address" placeholder="Your address.." required>
+    
+    <label for="phone_number">Phone Number</label>
+    <input type="text" id="phone_number" name="phone_number" placeholder="Your phone number..">
+     
+    <label for="email">Email</label>
+    <input type="text" id="email" name="email" placeholder="Your email.." required>
+
+    <label for="gender">Gender</label>
+    <select id="gender" name="gender" required>
+      <option value="male">Male</option>
+      <option value="female">Female</option>
+      <option value="other">Other</option>
+      <option value="do_not_specify">Do Not Specify</option>
+     
+    </select>
+    
+     <input type="radio" id="contactChoice1" name="contact" value="email" required />
+      <label for="contactChoice1">Email</label>
+    
+    
+      <input type="radio" id="contactChoice2" name="contact" value="phone" required/>
+      <label for="contactChoice2">Phone</label>
+  
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+</body>
+</html>
